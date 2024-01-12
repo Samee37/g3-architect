@@ -3,6 +3,7 @@
 * {
     font-family: 'Work Sans', sans-serif;
 }
+
 .btn-p {
     border-radius: 8px;
     background: #FF900E;
@@ -68,22 +69,69 @@ nav li a {
     font-weight: 400;
 
 }
-.banner img{
+
+.banner img {
     margin-top: 25px;
     width: 100%;
 }
 
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.ikk {
+    color: var #727272;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+#nnn {
+    color: var #131313;
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+#mmm {
+    color: #FF900E;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.kkl {
+    color: var #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.teams{
+    display: flex;
+    align-items: center;
+}
+.pic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.feature{
+    padding-left: 70px;
+    padding-right: 70px;
+}
 
 @media screen and (max-width: 576px) {
     header {
-        padding: 20px}
-        nav{
-            flex-direction: column;
-        }
-    
+        padding: 20px
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
 }
-@media screen and (min-width: 576px) and (max-width: 960px){
-    nav{
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    nav {
         flex-direction: column;
     }
 }
